@@ -41,7 +41,7 @@ function checkForShake() {
   // If shake
 
   // If not shake
-k = 20-3*accChangeT;
+var w = 20-3*accChangeT;
  for(var i=-400;i<400;i=i+35){
 for(var j=0;j<400;j=j+35){
   for(var k=150;k>w;k=k-30){
